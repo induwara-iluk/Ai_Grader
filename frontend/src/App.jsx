@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
 axios.defaults.baseURL = 'https://ai-grader-vyc9.onrender.com';
-
 const questions = [
   {
     id: 1,

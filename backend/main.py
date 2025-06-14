@@ -23,7 +23,7 @@ async def root():
     return {"message": "🎉 FastAPI is up and running!"}
 
 # === Gemini setup ===
-genai.configure(api_key="YOUR_GOOGLE_API_KEY")
+genai.configure(api_key="AIzaSyBn4IJBo-jtgV2MAjgPOZhYWe6VOjX6SIw")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # === Request schema ===
